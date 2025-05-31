@@ -29,8 +29,12 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# env files (can opt-in for committing if needed)
+#! Ignore all .env files that might contain secrets
 .env*
+.env.local
+
+#* Except for the sample file, which should not contain secrets
+!.env.sample
 
 # vercel
 .vercel
