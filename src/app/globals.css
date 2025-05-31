@@ -1,11 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 Global Styles body {
   font-family: "Arial", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #ffffff; /* White background */
-  color: #000000; /* Black text */
+  background-color: #ffffff;
+  /* White background */
+  color: #000000;
+  /* Black text */
 }
 
+/* Container Styles */
 .container {
   width: 90%;
   max-width: 1200px;
@@ -17,9 +24,11 @@ Global Styles body {
 
 /* Header Styles */
 header {
-  background-color: #ffffff; /* White background */
+  background-color: #ffffff;
+  /* White background */
   padding: 15px 0;
-  border-bottom: 2px solid #d3d3d3; /* Light gray bottom border */
+  border-bottom: 2px solid #d3d3d3;
+  /* Light gray bottom border */
 }
 
 header .logo img {
@@ -41,14 +50,16 @@ header nav ul li {
 
 header nav ul li a {
   text-decoration: none;
-  color: #000000; /* Black text */
+  color: #000000;
+  /* Black text */
   font-size: 16px;
   font-weight: 600;
   transition: color 0.3s ease;
 }
 
 header nav ul li a:hover {
-  color: #ff0000; /* Red hover effect */
+  color: #ff0000;
+  /* Red hover effect */
 }
 
 /* Contact Link on the Right */
@@ -66,12 +77,15 @@ header nav ul li a:hover {
 
 /* Footer Styles */
 footer {
-  background-color: #f8f9fa; /* Light gray background */
-  color: #000000; /* Black text */
+  background-color: #f8f9fa;
+  /* Light gray background */
+  color: #000000;
+  /* Black text */
   text-align: center;
   padding: 20px 0;
   margin-top: 40px;
-  border-top: 2px solid #d3d3d3; /* Light gray top border */
+  border-top: 2px solid #d3d3d3;
+  /* Light gray top border */
 }
 
 footer p {
@@ -90,16 +104,18 @@ footer nav ul {
 
 footer nav ul li a {
   text-decoration: none;
-  color: #000000; /* Black text */
+  color: #000000;
+  /* Black text */
   font-size: 14px;
 }
 
 footer nav ul li a:hover {
-  color: #ff0000; /* Red hover effect */
+  color: #ff0000;
+  /* Red hover effect */
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 564px) {
   .container {
     flex-direction: column;
     text-align: center;
