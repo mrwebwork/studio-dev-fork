@@ -33,7 +33,7 @@ defineComponents([
     definition: {
       id: "info-card",
       name: "Info Card",
-      category: "Custom Components",
+      category: "Components",
       variables: {
         title: {
           displayName: "Title",
@@ -81,31 +81,31 @@ defineComponents([
 defineBreakpoints([]);
 
 // Uncomment the following code to define custom breakpoints
-// defineBreakpoints([
-//   {
-//     id: "test-desktop",
-//     query: "*",
-//     displayName: "All Sizes",
-//     displayIcon: "desktop",
-//     previewSize: "100%",
-//   },
-//   {
-//     id: "test-tablet",
-//     query: "<982px",
-//     displayName: "Tablet",
-//     displayIcon: "tablet",
-//     previewSize: "820px",
-//   },
-//   {
-//     id: "test-mobile",
-//     query: "<576px",
-//     displayName: "Mobile",
-//     displayIcon: "mobile",
-//     previewSize: "390px",
-//   },
-// ]);
+defineBreakpoints([
+  {
+    id: "test-desktop",
+    query: "*",
+    displayName: "All Sizes",
+    displayIcon: "desktop",
+    previewSize: "1200px",
+  },
+  {
+    id: "test-tablet",
+    query: "<768px",
+    displayName: "Tablet",
+    displayIcon: "tablet",
+    previewSize: "820px",
+  },
+  {
+    id: "test-mobile",
+    query: "<576px",
+    displayName: "Mobile",
+    displayIcon: "mobile",
+    previewSize: "100%",
+  },
+]);
 
-//defineDesignTokens([]);
+// defineDesignTokens([]);
 
 // defineDesignTokens([]);
 
